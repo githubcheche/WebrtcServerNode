@@ -1,0 +1,23 @@
+{
+  "name": "cheyy",
+  "version": "1.0.0",
+  "description": "webrtc server nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/githubcheche/WebrtcServerNode.git"
+  },
+  "author": "cheyunyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/githubcheche/WebrtcServerNode/issues"
+  },
+  "homepage": "https://github.com/githubcheche/WebrtcServerNode#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  }
+}
