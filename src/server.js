@@ -10,8 +10,8 @@ let app = express();
 let allUsers = {};      // 所有用户名单
 let allSockets = {};    // 所有客户端
 
-
-app.use(express.static('../dist'));    // 获取静态页面（需要把静态页面放入这个目录内）
+console.log(__dirname);
+app.use(express.static(__dirname + '/../dist'));    // 获取静态页面（需要把静态页面放入这个目录内）
 
 let server = http.createServer(app).listen(serverPoint);
 console.log("The HTTP server is up and running on " + serverPoint);
